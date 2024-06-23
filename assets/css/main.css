@@ -94,7 +94,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  cursor: url("../master\ sword\ 3.png"), auto;
+  cursor: url("/assets/ms3.png"), auto;
 }
 
 article,
