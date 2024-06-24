@@ -120,6 +120,10 @@ ul {
   list-style: none;
 }
 
+a {
+  cursor: pointer !important;
+}
+
 blockquote,
 q {
   quotes: none;
@@ -2604,7 +2608,7 @@ ul.actions {
   display: -ms-flex;
   display: flex;
   gap: 4px;
-  cursor: default;
+  /* cursor: default; */
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
@@ -2720,7 +2724,7 @@ ul.actions.fit.stacked {
 /* Icons */
 
 ul.icons {
-  cursor: default;
+  /* cursor: default; */
   list-style: none;
   padding-left: 0;
 }
@@ -2973,7 +2977,7 @@ table.alt tbody tr td {
   margin: 0 0 3em 0;
   padding: 0;
   list-style: none;
-  cursor: default;
+  /* cursor: default; */
 }
 
 .statistics li {
@@ -3096,7 +3100,7 @@ table.alt tbody tr td {
 }
 
 .spotlight .content header.major {
-  margin: 0 0 2em 0;
+  margin: 0 0 3em 0;
 }
 
 .spotlight .image {
@@ -3320,7 +3324,7 @@ body.is-preload #header.alt .logo {
   background-color: #f7f7f7;
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
-  cursor: default;
+  /* cursor: default; */
   text-align: center;
 }
 
